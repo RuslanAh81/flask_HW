@@ -1,0 +1,33 @@
+{% extends 'shop_main.html' %}
+
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h1>Наша компания предлагает</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet autem cumque, dolor ea error facere,
+            laboriosam laudantium maiores nihil optio similique veniam! Autem ducimus eligendi facere facilis
+            provident!</p>
+        <div class="content">
+        <div class="body">
+            <a href="/cloth_main">Одежда</a>
+            <img src="/static/img/cloth.jpg" alt="">
+        </div>
+
+        <div class="body">
+            <a href="/shoes_main">Обувь</a>
+            <img src="/static/img/shoes.jpg" alt="">
+        </div>
+
+
+        <div class="body">
+            <a href="/bags_main">Сумки</a>
+            <img src="/static/img/bags.jpg" alt="">
+        </div>
+        </div>
+
+
+    </div>
+{% endblock %}

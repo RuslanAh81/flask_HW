@@ -1,0 +1,21 @@
+.header {
+    background-color: LightCoral;
+    height: 200px;
+}
+
+.body {
+    display: flex;
+    height: 500px;
+
+    flex-direction: column;
+}
+
+.footer {
+    background-color: aqua;
+    height: 200px;
+}
+.content {
+    display: flex;
+    flex-direction: row
+    justify-content: space-around;
+}

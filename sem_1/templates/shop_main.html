@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>
+        {% block title %}
+            Мой сайт
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <div class="header">
+        <h1>Магазин одежды "Шоп нам и вам"</h1>
+        <p>С нами в великое будущее</p>
+        <a href="/main/">Основная</a>
+        <a href="/data/">О нас</a>
+        <a href="/contacts/">Контакты</a>
+    </div>
+
+    <div class="body">
+        {% block content %}
+            Страница не заполнена
+        {% endblock %}
+    </div>
+
+    <div class="footer">
+        <p>Все права защищены</p>
+    </div>
+
+</body>
+</html>
