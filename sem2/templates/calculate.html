@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block new_content %}
+        <p>Введите Ваше число</p>
+        <div>
+                <form action="/auth" method="post">
+                        <input type="text" name="number" placeholder="Enter number">
+                        <input type="submit" value="send">
+                </form>
+        </div>
+{% endblock %}

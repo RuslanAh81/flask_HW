@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block new_content %}
+
+        <h1>Привет</h1>
+        <p>Хотелось Ваше имя и возраст</p>
+        <div>
+                <form action="/auth" method="post">
+                        <input type="text" name="name" placeholder="Enter name">
+                        <input type="text" name="age" placeholder="Enter age">
+                        <input type="submit" value="send">
+
+                </form>
+        </div>
+{% endblock %}
+
